@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <!--Crear dos inputs de texto donde podremos escribir el nombre y el sonido, y un botón en el cual al presionar creará un animal con esas características y lo añadirá a la lista de animales.-->
+    <input type="text" id="nombre" />
+    <input type="text" id="ruido" />
+    <input type="button" value="Guardar" onclick="guardar()" />
+    <!--Crear un botón que al pulsarlo muestra la lista de los animales en la página web (dentro de un div cada saludo de un animal dentro de un párrafo).-->
+    <input type="button" value="Imprimir" onclick="imprimir()" />
+    <!--<div id="lista_animales"></div>-->
+    <!--En vez de mostrar los animales en párrafos, mostrarlos como ítems dentro de una lista.-->
+    <ul><li id="lista_animales"></li></ul>
+    <script src="script.js"></script>
+</body>
+</html>
